@@ -1,0 +1,10 @@
+footer {
+    color: white;
+    font-size: 12px;
+}
+
+h1 ~ section {
+    border: groove;
+    border-color: #ecd698;
+    padding: 30px;
+}

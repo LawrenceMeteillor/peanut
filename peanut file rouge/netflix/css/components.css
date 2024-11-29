@@ -1,0 +1,21 @@
+nav ul li:first-of-type a:hover {
+    text-decoration: none;
+    border: none;
+}
+
+nav ul li:last-of-type a:hover {
+    text-decoration: none;
+    border: none;
+}
+
+
+nav a:hover {
+    font-weight: bold;
+    border-bottom: solid;
+}
+
+section > a {
+    height: 350px;
+    
+    box-shadow: 5px 5px 5px white;
+}
