@@ -50,6 +50,7 @@ footer img {
     color: #ecd698;
     gap: 5px;
     border-radius: 5px;
+    margin-top: 120px;
 }
 
 #grid-container2 > button:hover {
