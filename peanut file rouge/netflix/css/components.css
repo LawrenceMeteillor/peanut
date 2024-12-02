@@ -14,8 +14,41 @@ nav a:hover {
     border-bottom: solid;
 }
 
+#navbar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 15px;
+}
+
 section > a {
     height: 350px;
     
     box-shadow: 5px 5px 5px white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    background-color: #303030;
+    color: #ecd698;
+}
+
+form input:focus {
+    border: #ecd698;
+}
+
+form input:last-child {
+    width: 200px;
+    background-color: #303030;
+    color: #ecd698;
+    border-radius: 10%;
+}
+
+form input:last-child:hover {
+    background-color: #ecd698;
+    color: #303030;
 }
