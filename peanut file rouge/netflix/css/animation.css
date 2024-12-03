@@ -1,0 +1,33 @@
+section img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+main {
+    animation: fadeIn 1.5s;
+}
+
+h2 a:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+#grid-container2 > button:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+section button:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}

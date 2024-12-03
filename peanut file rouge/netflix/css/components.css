@@ -16,6 +16,61 @@ nav a:hover {
 
 section > a {
     height: 350px;
-    
-    box-shadow: 5px 5px 5px white;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    background-color: #303030;
+    color: #ecd698;
+    width: 300px;
+    border: 1px solid #ecd698;
+    height: 40px;
+    border-radius: 10px;
+}
+form input:focus {
+    border: #ecd698;
+}
+form input:last-child {
+    width: 200px;
+    background-color: #303030;
+    color: #ecd698;
+    border-radius: 10%;
+}
+form input:last-child:hover {
+    background-color: #ecd698;
+    color: #303030;
+}
+
+section button {
+    width: 100px;
+    height: 30px;
+    background-color: #333;
+    border: solid 3px;
+    color: #ecd698;
+    font-weight: bold;
+    gap: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section button:hover {
+    background-color: #ecd698;
+    color: black;
+    border-color: #ecd698;
 }
